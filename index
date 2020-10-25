@@ -575,7 +575,7 @@
 				}, 5000);
 			} else if (localStorage.getItem("manualColor") == "#000000") {
 				setTimeout(function () {
-					createNote("Buat belajar bro, bukan buat neko neko :v");
+					createNote("Buat belajar ngab, sorry saya buat repo baru di GitHub :3");
 				}, 5000);
 			}
 		}
