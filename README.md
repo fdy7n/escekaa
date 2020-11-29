@@ -1,2 +1,4 @@
 # Desc
-Cuma tes doang ngab, all credit to Mas Andika Sujanadi
+
+Web test landing buat Chika ❤
+All credit belongs to Mas Andika Sujanadi
