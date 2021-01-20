@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>KANGENNN!! 🥺</title>
+	<title>Chika's</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -39,11 +39,11 @@
 		.search-box input[type="text"] {
 			width: 100%;
 			padding: 10px;
-			margin-top: 25vh;
+			margin-top: 20vh;
 			box-sizing: border-box;
 			background: rgba(167, 167, 167, 0.1);
 			border: 2px solid #fff;
-			border-radius: 10px;
+			border-radius: 20px;
 			font-size: 15px;
 			color: rgb(255, 255, 255);
 			outline: none;
@@ -415,7 +415,7 @@
 <body onload="init()" style="display:contents">	
 	<form method="get" class="wrapper" action="https://www.google.com/search">
 		<div class="search-box">
-			<input type="text" name="q" size="15" placeholder="Mau cari apa hari ini?">
+			<input type="text" name="q" size="15" placeholder="Mau cari apa?">
 		</div>
 	</form>
 	<div class="kontrol" onload="readStorage()">
@@ -617,11 +617,11 @@
 		function specialEffects() {
 			if (localStorage.getItem("manualColor") == "#4c1130") {
 				setTimeout(function () {
-					createNote("Wow, u find an easter egg :D");
+					createNote("Wow, you find an easter egg!");
 				}, 5000);
 			} else if (localStorage.getItem("manualColor") == "#000000") {
 				setTimeout(function () {
-					createNote("Of course, I still have a crush on you. A lot! 😃");
+					createNote("Of course, I still have a crush on you.");
 				}, 5000);
 			}
 		}
@@ -1288,12 +1288,12 @@
 					document.getElementById("quote").innerHTML = txt;
 				txt2 = txt;
 			} else if (H < 10) {
-				txt = '잘 주무셨어요? 😃';
+				txt = 'Hello there, lovely to see you again! 😄';
 				if (txt != txt2 && !starting)
 					document.getElementById("quote").innerHTML = txt;
 				txt2 = txt;
 			} else if (H < 14) {
-				txt = 'Be happy today and keep it up! 😀💪🏻';
+				txt = 'Be happy today and keep it up! 🤩';
 				if (txt != txt2 && !starting)
 					document.getElementById("quote").innerHTML = txt;
 				txt2 = txt;
@@ -1303,7 +1303,7 @@
 					document.getElementById("quote").innerHTML = txt;
 				txt2 = txt;
 			} else if (H < 20) {
-				txt = 'Good evening, take a breather 😉';
+				txt = 'Good evening, take a breather and relax. 😉';
 				if (txt != txt2 && !starting)
 					document.getElementById("quote").innerHTML = txt;
 				txt2 = txt;
